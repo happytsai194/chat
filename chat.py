@@ -7,6 +7,7 @@ def read_file(filename):
 
 def convert(lines):
 	new = []
+	person = None
 	for line in lines:
 		if line == "Allen":
 			person = "Allen"
